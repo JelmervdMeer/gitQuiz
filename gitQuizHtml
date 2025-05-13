@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>A Meaningful Page Title</title>
+</head>
+<body>
+    <h1>GitQuiz</h1>
+    <h2>Test je kennis over Git</h2>
+    <p>Als je op de startkno drukt begint de quiz. Je krijgt verschillende vragen en na het antwoorden van een vraag krijg je gelijk
+      te zien of je antwoord fout of goed was met daarbij een korte uitleg. Ook wordt bijgehouden wat de tijd was die je nodig had 
+      om elke vraag te beantwoorden
+    </p>
+    <button id="start">Start Quiz</button>
+    <div id="quiz" style="display: none;">
+        <div>
+            <h2>Vraag 1<span id="question-number"></span></h2>
+            <p id="question-text">Hoeveel generaties programeertalen zijn er inmiddels</p>
+            <input type="text" id="answer" placeholder="Typ hier je antwoord">
+            <button id="submit-answer">Verzend Antwoord</button>
+            <p id="feedback">Er zijn in totaal 5 generaties programmeertalen. De eerste generatie is machinetaal. De tweede generatie wordt ook wel assembler genoemd.
+                dus kale machine-instructies maar leesbaar neergezet. De derde generatie is een hogere programmeertaal zoals C, C++ of Java. De vierde generatie is een taal met weer een 
+                hoger abstractieniveau die zijn gemaakt met een bepaald doel zoals Sql. De vijfde generatie zijn probleemoplossende talen zoals Prolog.
+            </p>
+            <p id="tijdVraag1"></p>
+        </div>
+        <div>
+            <h2>Vraag 2<span id="question-number2"></span></h2>
+            <p id="question-text">Wat is het verschil tussen een repository en een branch</p>
+            <input type="text" id="answer" placeholder="Typ hier je antwoord">
+            <button id="submit-answer">Verzend Antwoord</button>
+            <p id="feedback">Een repository is een opslagplaats voor je project, terwijl een branch een aparte lijn van ontwikkeling binnen die repository is. 
+                Met branches kun je verschillende versies van je project ontwikkelen zonder dat ze elkaar beïnvloeden.
+            </p>
+            <p id="tijdVraag2"></p>
+        </div>
+        <div>
+            <h2>Vraag 3<span id="question-number3"></span></h2>
+            <p id="question-text">Wat is het verschil tussen een merge en een rebase</p>
+            <input type="text" id="answer" placeholder="Typ hier je antwoord">
+            <button id="submit-answer">Verzend Antwoord</button>
+            <p id="feedback">Een merge voegt de geschiedenis van twee branches samen, terwijl een rebase de basis van je branch verplaatst naar de laatste commit van een andere branch. 
+                Dit kan de geschiedenis schoner maken, maar kan ook leiden tot complexere conflicten.
+            </p>
+            <p id="tijdVraag3"></p>
+        </div>
+        <div>
+            <h2>Vraag 4<span></span></h2>
+        </div>
+    </div>
