@@ -25,7 +25,7 @@
         </div>
         <div>
             <h2>Vraag 2<span id="question-number2"></span></h2>
-            <p id="question-text">Wat is het verschil tussen een repository en een branch</p>
+            <p class="question-text">Wat is het verschil tussen een repository en een branch</p>
             <input type="text" id="answer" placeholder="Typ hier je antwoord">
             <button id="submit-answer">Verzend Antwoord</button>
             <p id="feedback">Een repository is een opslagplaats voor je project, terwijl een branch een aparte lijn van ontwikkeling binnen die repository is. 
@@ -35,7 +35,7 @@
         </div>
         <div>
             <h2>Vraag 3<span id="question-number3"></span></h2>
-            <p id="question-text">Wat is het verschil tussen een merge en een rebase</p>
+            <p class="question-text">Wat is het verschil tussen een merge en een rebase</p>
             <input type="text" id="answer" placeholder="Typ hier je antwoord">
             <button id="submit-answer">Verzend Antwoord</button>
             <p id="feedback">Een merge voegt de geschiedenis van twee branches samen, terwijl een rebase de basis van je branch verplaatst naar de laatste commit van een andere branch. 
@@ -44,6 +44,32 @@
             <p id="tijdVraag3"></p>
         </div>
         <div>
-            <h2>Vraag 4<span></span></h2>
+            <h2>Vraag 4<span id="question-number4"></span></h2>
+            <p class="question-text">Wat is het verschil tussen een pull en een fetch</p>
+            <input type="text" id="answer" placeholder="Typ hier je antwoord">  
+            <button id="submit-answer">Verzend Antwoord</button>
+            <p id="feedback">Een fetch haalt de laatste wijzigingen van de remote repository op, maar voegt ze niet samen met je lokale branch. 
+                Een pull doet dit wel, het haalt de wijzigingen op en voegt ze samen met je lokale branch.
         </div>
+        <div>
+            <h2>Vraag 5<span id="question-number5"></span></h2>
+            <p class="question-text">Wat is het verschil tussen een commit en een push</p>
+            <input type="text" id="answer" placeholder="Typ hier je antwoord">
+            <button id="submit-answer">Verzend Antwoord</button>
+            <p id="feedback">Een commit slaat je wijzigingen op in de lokale repository, terwijl een push deze wijzigingen naar de remote repository verzendt. 
+                Dit maakt je wijzigingen zichtbaar voor anderen die aan hetzelfde project werken.
+            </p>
+            <p id="tijdVraag5"></p>
+        </div>
+        <div>
+            <h2>Vraag 6<span id="question-number6"></span></h2>
+            <p class="question-text">Wat is het verschil tussen een fork en een clone</p>
+            <input type="text" id="answer" placeholder="Typ hier je antwoord">
+            <button id="submit-answer">Verzend Antwoord</button>
+            <p id="feedback">Een fork is een kopie van een repository op je eigen account, waarmee je wijzigingen kunt aanbrengen zonder de originele repository te beïnvloeden. 
+                Een clone is een lokale kopie van een repository op je computer, waarmee je lokaal kunt werken en wijzigingen kunt aanbrengen.
+            </p>
+            <p id="tijdVraag6"></p>
+        </div>
+
     </div>
