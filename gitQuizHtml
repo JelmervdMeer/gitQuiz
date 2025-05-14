@@ -44,23 +44,28 @@
             <label for="C3">Commit</label><br>
             <input type="radio" id="D3" name="antw3D" value="Push">
             <label for="D3">Push</label><br>
-        <div>
-            <h2>Vraag 4<span id="question-number4"></span></h2>
-            <p class="question-text">Wat is het verschil tussen een pull en een fetch</p>
-            <input type="text" id="answer" placeholder="Typ hier je antwoord">  
-            <button id="submit-answer">Verzend Antwoord</button>
-            <p id="feedback">Een fetch haalt de laatste wijzigingen van de remote repository op, maar voegt ze niet samen met je lokale branch. 
-                Een pull doet dit wel, het haalt de wijzigingen op en voegt ze samen met je lokale branch.
         </div>
         <div>
-            <h2>Vraag 5<span id="question-number5"></span></h2>
-            <p class="question-text">Wat is het verschil tussen een commit en een push</p>
-            <input type="text" id="answer" placeholder="Typ hier je antwoord">
-            <button id="submit-answer">Verzend Antwoord</button>
-            <p id="feedback">Een commit slaat je wijzigingen op in de lokale repository, terwijl een push deze wijzigingen naar de remote repository verzendt. 
-                Dit maakt je wijzigingen zichtbaar voor anderen die aan hetzelfde project werken.
-            </p>
-            <p id="tijdVraag5"></p>
+            <h2>4. Dit slaat je wijzigingen op in je lokale repositery</h2>
+            <input type="radio" id="A4" name="antw4A" value="Commit">
+            <label for="A4">Commmit</label><br>
+            <input type="radio" id="B4" name="antw4B" value="Pull">
+            <label for="B3">Pull</label><br>
+            <input type="radio" id="C4" name="antw4C" value="Fetch">
+            <label for="C3">Fetch</label><br>
+            <input type="radio" id="D4" name="antw4D" value="Push">
+            <label for="D3">Push</label><br>.
+        </div>
+        <div>
+            <h2>5. Dit maakt de wijzigingen zichtbaar voor andere mensen die aan het project werken</h2>
+            <input type="radio" id="A5" name="antw5A" value="Commit">
+            <label for="A4">Commmit</label><br>
+            <input type="radio" id="B5" name="antw5B" value="Pull">
+            <label for="B3">Pull</label><br>
+            <input type="radio" id="C5" name="antw5C" value="Fetch">
+            <label for="C3">Fetch</label><br>
+            <input type="radio" id="D5" name="antw5D" value="Push">
+            <label for="D3">Push</label><br>.
         </div>
         <div>
             <h2>Vraag 6<span id="question-number6"></span></h2>
