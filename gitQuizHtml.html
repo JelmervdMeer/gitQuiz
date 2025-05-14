@@ -15,15 +15,25 @@
     <form action="/gitQuiz.php">
         <div class="wrapper">
             <div class="vraag">
-                <h2>1. Hoe heet een opslagplaats van je project?</h2>
-                    <input type="radio" id="A1" name="antw1A" value="Repository">
-                    <label for="A1">Repository</label><br>
-                    <input type="radio" id="B1" name="antw1B" value="Branch">
-                    <label for="B1">Branch</label><br>
-                    <input type="radio" id="C1" name="antw1C" value="Commit">
-                    <label for="C1">Commit</label><br>
-                    <input type="radio" id="D1" name="antw1D" value="Push">
-                    <label for="D1">Push</label><br>
+                <div class="flipCardInner">
+                    <div class="flipCardFront">
+                        <h2>1. Hoe heet een opslagplaats van je project?</h2>
+                        <input type="radio" id="A1" name="antw1A" value="Repository">
+                        <label for="A1">Repository</label><br>
+                        <input type="radio" id="B1" name="antw1B" value="Branch">
+                        <label for="B1">Branch</label><br>
+                        <input type="radio" id="C1" name="antw1C" value="Commit">
+                        <label for="C1">Commit</label><br>
+                        <input type="radio" id="D1" name="antw1D" value="Push">
+                        <label for="D1">Push</label><br>
+                    </div>
+                    <div class="flipCardBack">
+                        <p class="question-text">Een repository is een opslagplaats voor je project, waar je alle bestanden en de geschiedenis van wijzigingen kunt beheren. 
+                            Met Git heb je een lokale repository op je computer en een remote repository op een server, zoals GitHub.
+                        </p>
+                        <img src="gitImage.png" alt="Git Image">
+                    </div>
+                </div>
             </div>
             <div class="knoppen">
                 <button class="btnA">A</button>
