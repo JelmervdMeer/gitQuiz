@@ -1,0 +1,22 @@
+.btnA{
+    inline-size: 5vw;
+    block-size: 5v;
+    border-radius: 50%;
+    background: rgb(9, 9, 205);
+    color: wwhite;
+}
+
+.wrapper{
+    inline-size: 100%;
+    block-size: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.knoppen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}

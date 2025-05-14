@@ -1,0 +1,7 @@
+.btnA{
+    inline-size: 5vw;
+    block-size: 5v;
+    border-radius: 50%;
+    background: rgb(9, 9, 205);
+    color: wwhite;
+}

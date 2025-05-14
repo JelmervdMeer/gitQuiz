@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>A Meaningful Page Title</title>
+  <link rel="stylesheet" href="gitQuizCss.css">
+</head>
+<body>
+    <h1>GitQuiz</h1>
+    <h2>Test je kennis over Git</h2>
+    <p>Als je op de startkno drukt begint de quiz. Je krijgt verschillende vragen en na het antwoorden van een vraag krijg je gelijk
+      te zien of je antwoord fout of goed was met daarbij een korte uitleg. Ook wordt bijgehouden wat de tijd was die je nodig had 
+      om elke vraag te beantwoorden
+    </p>
+    <button id="start">Start Quiz</button>
+    <form action="/gitQuiz.php">
+        <div class="wrapper">
+            <div class="vraag">
+                <h2>1. Hoe heet een opslagplaats van je project?</h2>
+                    <input type="radio" id="A1" name="antw1A" value="Repository">
+                    <label for="vr1">Repository</label><br>
+                    <input type="radio" id="B1" name="antw1B" value="Branch">
+                    <label for="vr2">Branch</label><br>
+                    <input type="radio" id="C1" name="antw1C" value="Commit">
+                    <label for="vr3">Commit</label><br>
+                    <input type="radio" id="D1" name="antw1D" value="Push">
+                    <label for="vr4">Push</label><br>
+            </div>
+            <div class="knoppen">
+                <button class="btnA">A</button>
+            </div>
+        </div>
+       
+        <div>
+            <h2>2. Hoe heet een aparte lijn van ontikkeling binnen je project?</h2>
+            <input type="radio" id="A2" name="antw2A" value="Repository">
+            <label for="A2">Repository</label><br>
+            <input type="radio" id="B2" name="antw2B" value="Branch">
+            <label for="B2">Branch</label><br>
+            <input type="radio" id="C2" name="antw2C" value="Commit">
+            <label for="C2">Commit</label><br>
+            <input type="radio" id="D2" name="antw2D" value="Pull">
+            <label for="D2">Pull</label><br>
+        </div>
+        <div>
+            <h2>3. Het haalt de laatste wijzingen op en voegt ze samen met je lokale branch</h2>
+            <input type="radio" id="A3" name="antw3A" value="Repository">
+            <label for="A3">Repository</label><br>
+            <input type="radio" id="B3" name="antw3B" value="Pull">
+            <label for="B3">Pull</label><br>
+            <input type="radio" id="C3" name="antw3C" value="Commit">
+            <label for="C3">Commit</label><br>
+            <input type="radio" id="D3" name="antw3D" value="Push">
+            <label for="D3">Push</label><br>
+        </div>
+        <div>
+            <h2>4. Dit slaat je wijzigingen op in je lokale repositery</h2>
+            <input type="radio" id="A4" name="antw4A" value="Commit">
+            <label for="A4">Commmit</label><br>
+            <input type="radio" id="B4" name="antw4B" value="Pull">
+            <label for="B3">Pull</label><br>
+            <input type="radio" id="C4" name="antw4C" value="Fetch">
+            <label for="C3">Fetch</label><br>
+            <input type="radio" id="D4" name="antw4D" value="Push">
+            <label for="D3">Push</label><br>.
+        </div>
+        <div>
+            <h2>5. Dit maakt de wijzigingen zichtbaar voor andere mensen die aan het project werken</h2>
+            <input type="radio" id="A5" name="antw5A" value="Commit">
+            <label for="A4">Commmit</label><br>
+            <input type="radio" id="B5" name="antw5B" value="Pull">
+            <label for="B3">Pull</label><br>
+            <input type="radio" id="C5" name="antw5C" value="Fetch">
+            <label for="C3">Fetch</label><br>
+            <input type="radio" id="D5" name="antw5D" value="Push">
+            <label for="D3">Push</label><br>.
+        </div>
+        <div>
+            <h2>Vraag 6<span id="question-number6"></span></h2>
+            <p class="question-text">Wat is het verschil tussen een fork en een clone</p>
+            <input type="text" id="answer" placeholder="Typ hier je antwoord">
+            <button id="submit-answer">Verzend Antwoord</button>
+            <p id="feedback">Een fork is een kopie van een repository op je eigen account, waarmee je wijzigingen kunt aanbrengen zonder de originele repository te beïnvloeden. 
+                Een clone is een lokale kopie van een repository op je computer, waarmee je lokaal kunt werken en wijzigingen kunt aanbrengen.
+            </p>
+            <p id="tijdVraag6"></p>
+        </div>
+
+    </div>

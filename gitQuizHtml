@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>A Meaningful Page Title</title>
+  <link rel="stylesheet" href="gitQuizCss.css">
 </head>
 <body>
     <h1>GitQuiz</h1>
@@ -16,6 +17,7 @@
             <h2>1. Hoe heet een opslagplaats van je project?</h2>
                 <input type="radio" id="A1" name="antw1A" value="Repository">
                 <label for="vr1">Repository</label><br>
+                <button class="btnA" >A</button>
                 <input type="radio" id="B1" name="antw1B" value="Branch">
                 <label for="vr2">Branch</label><br>
                 <input type="radio" id="C1" name="antw1C" value="Commit">
